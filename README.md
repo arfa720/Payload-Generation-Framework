@@ -1,8 +1,5 @@
 # Payload Generation Framework
-  Educational Offensive Security Tool
 
-
-## Overview
 The Payload Generation Framework is a modular Python-based CLI tool designed for educational and defensive cybersecurity research. It demonstrates how common web vulnerability payloads are structured and how encoding and obfuscation techniques affect detection mechanisms such as Web Application Firewalls (WAFs) and input validation filters.
 
 This tool:
@@ -11,6 +8,7 @@ This tool:
 - Does NOT exploit real systems
 - Is strictly for authorized lab environments
 
+---
 
 ## Project Objectives
 
@@ -45,6 +43,7 @@ payload_gen/
 └── .gitignore
 ```
 
+---
 
 ## Modules
 
@@ -77,6 +76,7 @@ Pattern-based string examples demonstrating:
 - Filter bypass concepts
 - OS-based payload variations
 
+---
 
 ## Features
 
@@ -110,6 +110,7 @@ Example:
 python main.py --module sqli --db mysql --export json
 ```
 
+---
 
 ## Installation
 
@@ -145,6 +146,8 @@ Export results to TXT:
 python main.py --module xss --export txt
 ```
 
+---
+
 ## Ethical Disclaimer
 This tool is developed strictly for:
 - Educational purposes
@@ -156,3 +159,4 @@ Misuse outside legally authorized environments is strictly prohibited.
 
 ## Author
 Muhammad Arfa
+
